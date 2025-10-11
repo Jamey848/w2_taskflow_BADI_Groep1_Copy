@@ -15,12 +15,6 @@ jobs:
     steps:
     - name: 📥 Checkout repository
       uses: actions/checkout@v5
-      
-    - name: 🔍 Setup Node.js
-      uses: actions/setup-node@v5
-      with:
-        node-version: '24'
-        cache: 'npm'
         
     - name: 📦 Install dependencies
       run: |
